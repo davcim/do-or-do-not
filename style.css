@@ -1,0 +1,68 @@
+body {
+	padding: 20px;
+	background: lightslategray;
+	background-image: url(img/yoda-2.png);
+	background-blend-mode: darken;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: contain;	
+}
+
+.title {
+	color:  yellow;
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: "Audiowide", sans-serif;
+}
+
+h3 {
+	text-align:  center;
+	font-size: 2.8em;
+	margin-bottom: 5px;
+}
+
+.bg-list {
+	max-width:  600px;
+	margin: 0 auto;
+	border: 6px outset white;
+	border-radius: 6px;
+	padding: 35px 20px 20px 20px;
+	box-shadow: 4px 4px 15px rgba(255,255,255,0.9);
+	background-color: lightblue;
+	opacity: 0.9;
+}
+
+.ajouter {
+	text-align: center;
+}
+
+#userinput, #enter {
+	font-size: 1em;
+
+}
+
+.done {
+  text-decoration: line-through;
+  opacity:  0.3;
+  text-decoration-color: red;
+  font-style: italic;
+}
+
+li {
+	cursor: pointer;
+	list-style-type: circle ;
+	font-family:  sans-serif;
+	width: 90%;
+}
+
+.task-wrapper {
+	display:  flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.remove {
+	cursor: pointer;
+}
